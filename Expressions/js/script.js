@@ -46,5 +46,11 @@ console.log(fullName);
 
 var result = a + b;
 console.log(result);
+//Expressions - Assignment Operators
+
+var a = 3;
+a ++ ;
+console.log(a);
+
 
 
