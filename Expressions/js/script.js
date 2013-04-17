@@ -8,9 +8,13 @@ var yearBorn = 1981;
 var age = 2013 -yearBorn;
 console.log(age);
 //Expressions - Arithmetic Operators
-//area = 1/2w * h
+//area = w * h /2
 var width = 4;
 var height = 5;
 var area = width * height/2;
 console.log(area);
+//Expressions - Modulo Operator
+var remainder = 32 % 10; //helpful to tell if a number is even or odd as even will always be 0
+console.log(remainder);
+
 
