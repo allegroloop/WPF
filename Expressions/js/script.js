@@ -33,4 +33,18 @@ console.log(total);
 var average = total/3;
 console.log(average);
 
+//Expressions - Concatenating Strings
+
+var a = "6";
+var b = "7";
+
+var firstName = "Jordan";
+var lastName = "Rocha";
+
+var fullName = firstName + " " + lastName;
+console.log(fullName);
+
+var result = a + b;
+console.log(result);
+
 
