@@ -16,5 +16,14 @@ console.log(area);
 //Expressions - Modulo Operator
 var remainder = 32 % 10; //helpful to tell if a number is even or odd as even will always be 0
 console.log(remainder);
+//Expressions - PEMDAS - The Order of Operations
+
+var q1 = 87;
+var q2 = 100;
+var q3 = 60;
+var q4 = 80;
+
+var avg = (q1 + q2 + q3 + q4)/4;
+console.log(avg);
 
 
