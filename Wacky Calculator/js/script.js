@@ -13,5 +13,8 @@ hairTypes[3] = 90000; //red Consensus found on http://htg.addr.com/didyou.htm
 
 var age = 32; // My Age, shh, don't tell
 
-console.log(hairTypes[3] + " " + "hairs");
+console.log(hairTypes[3] + " " + "hairs"); //ran a test, noticed i needed semicolons at the end of each line and i was missing quotations in my array. I got test to work.
+
+var percent = age / 1000000 * (age * age) //I tried to do exponents, but this was simpler for my skill set. 1000000 is an arbitrary number used to make my math get to a closer percentage number.
+
 
