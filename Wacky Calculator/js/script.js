@@ -19,6 +19,6 @@ var percent = age / 1000000 * (age * age); //I tried to do exponents, but this w
 
 console.log(percent); // Check code. Code works
 
-var greyHairs = "brown" * percent;  //added greyHairs line of code and added semicolon to lines16 and 18
+var greyHairs = hairTypes[1] * percent;  //added greyHairs line of code and added semicolon to lines16 and 18
 
 console.log(greyHairs); // checking code
