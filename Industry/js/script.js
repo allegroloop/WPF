@@ -9,4 +9,4 @@ var monthlyTotal = payChecks[0] + payChecks[1] + payChecks[2] + payChecks[3]; //
 var weeklyAverage = monthlyTotal / weeks; //Take the total for the month and divide by the total number of weeks in a month
 var dayAverage = weeklyAverage / days; // Unorthodox way to find the average I know, but by dividing the weekly average by the days in a work week we get the average per day.
 
-console.log()
+console.log("The average pay I received per day for this month is" + " " + "$" + dayAverage); //put in the final variable to represent the average daily pay. Checked code and it worked. Success!
