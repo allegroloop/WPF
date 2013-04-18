@@ -41,8 +41,8 @@
      var itemDescription = "Facny Pants"; //given
      var tax = 1.08; //given
 
-     var discountedPrice = originalPrice - (discount/100 * originalPrice);
-     var itemWithTax = discountedPrice * tax;
+     var discountedPrice = originalPrice - (discount/100 * originalPrice); //PEMDAS - Turn the discount into a percent by dividing by 100. Then, multiply to the price to fond the discount. Last subtract that from the Original price to find the new discounted price
+     var itemWithTax = discountedPrice * tax;  //I just wrote the tax as a whole number and a decimal so all I had to do was multiply instead of re-writing the abouve equation and turning the tax into a percent.
 
 
      console.log("Your" + " " + itemDescription + " " + "were originally" + " " + "$" + originalPrice + " " + "but after a" + " " + discount + "%" + " " + "discount, it is now" + " " + "$" + discountedPrice + " " + "without tax, and" + " " + "$" + itemWithTax + " " + "with tax.");
