@@ -4,3 +4,4 @@
 
 var hairTypes = [blonde, brown, black, red] //these are the basic given hair types
 // at this point I need to re-define the colors as specific numbers in order to do the math
+hairTypes[0] = 140000 //Consensus found on http://htg.addr.com/didyou.htm
