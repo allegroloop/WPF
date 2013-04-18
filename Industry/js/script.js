@@ -1,4 +1,4 @@
-// Assignment Expressions - Industry
+// James Jordan Rocha_4-17-2013_Assignment Expressions - Industry Calculator
 // Calculate the average pay per day in a given month
 
 var weeks = 4; // I used 22 as the number of working weeks in a month
