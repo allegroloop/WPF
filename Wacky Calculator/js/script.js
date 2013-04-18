@@ -9,3 +9,5 @@ hairTypes[1] = 110000 // brown Consensus found on http://htg.addr.com/didyou.htm
 hairTypes[2] = 108000 // black Consensus found on http://htg.addr.com/didyou.htm
 hairTypes[3] = 90000 //red Consensus found on http://htg.addr.com/didyou.htm
 
+var age = 32 // My Age, shh, dont tell
+
