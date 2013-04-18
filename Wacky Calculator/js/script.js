@@ -21,4 +21,8 @@ console.log(percent); // Check code. Code works
 
 var greyHairs = hairTypes[1] * percent;  //added greyHairs line of code and added semicolon to lines16 and 18
 
-console.log(greyHairs); // checking code
+console.log(greyHairs); // checking code ... code works
+
+hairTypes[1] = "brown"   //testing out renaming back to hair color ... success!
+
+console.log("I have" + " " + hairTypes[1] + " " + "hair and I am" + " " + age + " " + "years old. This means I have" + " " + greyHairs + " " + "grey hairs"); // Final Statement
