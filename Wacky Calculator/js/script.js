@@ -1,4 +1,5 @@
-//Wacky Calculator - Grey Hair Counter
+//James Rocha_4-18-2013_Wacky Calculator - "Grey Hair Counter"
+//
 
 // First I must define the number among all hair types
 
