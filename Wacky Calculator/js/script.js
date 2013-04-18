@@ -13,3 +13,5 @@ hairTypes[3] = 90000 //red Consensus found on http://htg.addr.com/didyou.htm
 
 var age = 32 // My Age, shh, don't tell
 
+console.log(hairTypes[3] + " " + "hairs")
+
