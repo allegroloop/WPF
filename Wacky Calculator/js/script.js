@@ -17,4 +17,4 @@ console.log(hairTypes[3] + " " + "hairs"); //ran a test, noticed i needed semico
 
 var percent = age / 1000000 * (age * age) //I tried to do exponents, but this was simpler for my skill set. 1000000 is an arbitrary number used to make my math get to a closer percentage number.
 
-
+console.log(percent) // Check code. Code works
