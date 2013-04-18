@@ -1,7 +1,5 @@
-/**
- * Created with JetBrains WebStorm.
- * User: JROC
- * Date: 4/17/13
- * Time: 7:48 PM
- * To change this template use File | Settings | File Templates.
- */
+// Assignment Expressions - Industry
+// Calculate the average pay per day in a given month
+
+var month = 22; // I used 22 as the number of working days in a month
+var payChecks = [738, 875, 650, 754, 374]; //
