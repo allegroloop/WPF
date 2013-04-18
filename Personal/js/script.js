@@ -6,4 +6,4 @@ var weeklyRecycle = weeklyTotal - weeklyDumpster; //Math for the lbs of trash re
 
 var yearlyRecycle = 365.25 / 7 * weeklyRecycle; // PEMDAS - Calculate how many weeks are in a year by dividing the number of day in a year by the number of days in a week and then multiply that by the weekly total of lbs of recycled material.
 
-console.log =
+console.log("If I throw away" + " " + weeklyDumpster + "lbs" + " " + "of trash a week, then I can expect to recycle about" + " " + yearlyRecycle + "lbs" + " " + "of material a year!"); //It seems a lot bigger with that exclamation point at the end of it
