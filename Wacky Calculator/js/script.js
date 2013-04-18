@@ -7,5 +7,5 @@ var hairTypes = [blonde, brown, black, red] //these are the basic given hair typ
 hairTypes[0] = 140000 //Consensus found on http://htg.addr.com/didyou.htm
 hairTypes[1] = 110000 //Consensus found on http://htg.addr.com/didyou.htm
 hairTypes[2] = 108000 //Consensus found on http://htg.addr.com/didyou.htm
-hairTypes[3] = 140000 //Consensus found on http://htg.addr.com/didyou.htm
+hairTypes[3] = 90000 //Consensus found on http://htg.addr.com/didyou.htm
 
