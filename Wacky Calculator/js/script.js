@@ -1,3 +1,3 @@
 //Wacky Calculator - Grey Hair Counter
 
-// First I must get the average number among all hair types
+// First I must define the number among all hair types
