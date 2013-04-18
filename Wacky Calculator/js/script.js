@@ -23,6 +23,9 @@ var greyHairs = hairTypes[1] * percent;  //added greyHairs line of code and adde
 
 console.log(greyHairs); // checking code ... code works
 
+hairTypes[0] = "blonde" //renamed number value back to color value
 hairTypes[1] = "brown"   //testing out renaming back to hair color ... success!
+hairTypes[2] = "black"  //renamed number value back to color
+hairTypes[2] = "red"  // renamed number value back to color
 
 console.log("I have" + " " + hairTypes[1] + " " + "hair and I am" + " " + age + " " + "years old. This means I have" + " " + greyHairs + " " + "grey hairs"); // Final Statement
