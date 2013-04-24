@@ -34,8 +34,15 @@ var grade = prompt ("What is you grade for this course",95); //prompt for users 
 
 if(grade <= 100 && grade >= 90){
     //if grade is greater than 89 and equal or less to 100 than write out an A
-    console.log("Great Job! You got an A.")
+    console.log("Great Job! You got an A.")//code checked as working
+}else if(grade <= 89 && grade >= 80){
+    //if grade is greater than 80 and equal or less than 89 than write out an B
+    console.log("Good Job! You got a B.")
+}else if(grade <= 79 && grade >= 73){
+    //if grade is greater than 73 and equal or less than 79 than write out an C
+    console.log("Nice try. You got a C.")
 }
+
 
 
 
