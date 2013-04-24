@@ -30,7 +30,7 @@ if(fuel >= 200){
 
 //Student earns a number grade. Determine the letter grade using conditional statements.
 
-var grade = prompt ("What is you grade for this course",95); //prompt for users grade
+var grade = prompt ("What is your grade for this course?"); //prompt for users grade
 
 if(grade <= 100 && grade >= 90){
     //if grade is greater than 89 and equal or less to 100 than write out an A
@@ -39,8 +39,16 @@ if(grade <= 100 && grade >= 90){
     //if grade is greater than 80 and equal or less than 89 than write out an B
     console.log("Good Job! You got a B.")
 }else if(grade <= 79 && grade >= 73){
-    //if grade is greater than 73 and equal or less than 79 than write out an C
+    //if grade is greater than 72 and equal or less than 79 than write out an C
     console.log("Nice try. You got a C.")
+}else if(grade <= 72 && grade >= 70){
+    //if grade is greater than 69 and equal or less than 72 than write out an D
+    console.log("Try Harder. You got a D.")
+}else if(grade <= 69){
+    //if grade is less than 69 than write out an F
+    console.log("Loser! You got a F.")
+}else{
+    console.log("There is no letter grade for that number.")//code tested. code working.
 }
 
 
