@@ -18,7 +18,7 @@ var fuelRemaining = gasCapacity / gasPercent;
 
 if(fuel >= 200){
 
-    console.log("Yes,you can make it without stopping for gas!");
+    console.log("Yes,you can make it without stopping for gas/!");
 }else{
 
     console.log("You only have" + " " fuelRemaining + " " + "gallons of gas in your gas tank, better get gas while you can")
