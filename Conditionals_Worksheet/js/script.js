@@ -10,18 +10,18 @@
 
 
 var mpg = 20;
-var gasPercent = 50;
+var gasPercent = .5;
 var gasCapacity = 20;
 
-var fuel = gasCapacity / gasPercent * mpg;
-var fuelRemaining = gasCapacity / gasPercent;
+var fuel = gasCapacity * gasPercent * mpg;
+var fuelRemaining = gasCapacity * gasPercent;
 
 if(fuel >= 200){
-
+    //if fuel is greater than or equal to then drive on
     console.log("Yes,you can make it without stopping for gas/!");
 }else{
-
-    console.log("You only have" + " " fuelRemaining + " " + "gallons of gas in your gas tank, better get gas while you can")
+    //if fuel is less than 200, then stop and get gas
+    console.log("You only have" + " " fuelRemaining + " " + "gallons of gas in your gas tank, better get gas while you can!")
 }
 
 
