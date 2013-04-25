@@ -2,10 +2,12 @@
 
 //Question: Should you go on a hike?
 
-//Conditions: 1.Do you have the day off, yes or no? , 2.Is it sunny or raining?
+//Conditions: 1.What time do you get off? , 2.What is the temperature?
 
-var dayOff = prompt("Do you have the day off, yes or no?"); //prompt question to define day off as yes or no
-var weather = prompt("Is it sunny or raining"); //prompt question to define weather as raining or sunny
+//The sun goes down at 7pm and you need at least 3 hours to complete the hike. Also, if its hotter than 80 or colder than 55 than go home and work on Java Script
+
+var dayOff = prompt("What time do you get off?"); //prompt question to define time off
+var weather = prompt("What is the temperature?"); //prompt question to define what the temperature is
 
 console.log(dayOff + " " + weather); //var prompts checked as working
 
