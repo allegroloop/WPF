@@ -6,3 +6,7 @@
 
 var arrivalTime = prompt("How many minutes after the scheduled class start time did student arrive?"); //define var time for student
 var excuse = confirm("Does student have an excuse?"); //define var excuse true/false
+
+console.log(excuse); // code checked for true/false
+
+
