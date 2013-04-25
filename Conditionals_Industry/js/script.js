@@ -9,4 +9,7 @@ var excuse = confirm("Does student have an excuse?"); //define var excuse true/f
 
 console.log(excuse); // code checked for true/false
 
-
+if(arrivalTime > 4 && arrivalTime < 16 && excuse == false){
+    //define and print first statement print to log "Student is late for class and receives a tardy."
+    console.log("Student is late for class and receives a tardy.");
+}
