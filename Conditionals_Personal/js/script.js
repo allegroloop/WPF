@@ -15,7 +15,7 @@ if(dayOff >= 4 && dayOff <=5 && weather > 54 && weather < 81){
     //if prompts are answered as yes and sunny - take a hike buddy!
     console.log("Take a hike buddy!");
 }else{
-    //if answers anything else -  print to console "Not today, work on Java Script instead."
+    //if answers anything else - print to console "Not today, work on Java Script instead."
     console.log("Not today, work on Java Script instead.");
 
 }
