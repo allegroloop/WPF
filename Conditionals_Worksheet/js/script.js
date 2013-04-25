@@ -53,6 +53,9 @@ if(grade <= 100 && grade >= 90){
 
 //Movie Ticket Price
 
+//Cost of a movie equals $12
+//if they're older than 55, under 10, or watch it between 3pm and 5pm,then it is only $7
+
 
 
 
