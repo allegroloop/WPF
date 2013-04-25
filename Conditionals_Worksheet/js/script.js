@@ -57,5 +57,6 @@ if(grade <= 100 && grade >= 90){
 //if they're older than 55, under 10, or watch it between 3pm and 5pm,then it is only $7
 
 var age = prompt ("How old are you?"); //define var age by using prompt
+var movieTime = ("What time does the movie begin?"); //define movie start time with prompt
 
 
