@@ -59,4 +59,15 @@ if(grade <= 100 && grade >= 90){
 var age = prompt ("How old are you?"); //define var age by using prompt
 var movieTime = ("What time does the movie begin?"); //define movie start time with prompt
 
+if(age > 55 || age <10){
+    //if older than 55 or under than 10, then you only have to pay $7.00
+    console.log("You only have to pay $7.00.");
+}else if(movieTime > 2 && movieTime < 6){
+    //If movie time is greater than 2 and less than 6 than you only have to pay $7.00
+    console.log("It's Happy Hour! You only have to pay $7.00.");
+}else{
+    //everyone else has to pay $12.00
+    console.log("You're not special in any way so you have to pay $12.00 to see this movie.");
+}
+
 
