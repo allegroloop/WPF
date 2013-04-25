@@ -51,6 +51,8 @@ if(grade <= 100 && grade >= 90){
     console.log("There is no letter grade for that number.")//code tested. code working.
 }
 
+//Movie Ticket Price
+
 
 
 
