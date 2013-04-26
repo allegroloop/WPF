@@ -17,5 +17,11 @@ if(arrivalTime > 4 && arrivalTime < 30 && excuse == false){
     console.log("Student is late for class, but the tardy will be excused."); //code tested as working
 }else if(arrivalTime >= 30 && excuse == false){
     //if student is 30min or later without an excuse
-    console.log("Student is too late to receive credit for this class.");
+    console.log("Student is too late to receive credit for this class.");//code tested and working
+}else if(arrivalTime >= 30 && excuse == true){
+    //if student is 30min or later with an excuse
+    console.log("Student can receive credit for class, but must be assigned make-up work.");//code tested and working
+}else{
+    //everything else, print to console student is on time and receives credit for class.
+    console.log("Student is on time and receives credit for class.");
 }
