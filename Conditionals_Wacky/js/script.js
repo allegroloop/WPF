@@ -14,5 +14,5 @@ var chowTime = confirm ("Have you eaten in the last hour, ok for yes or cancel f
 
 if(time >= 0800 && time <=1200 && chowTime == true){
     // If its between 8 and 12 and you have eaten in the last hour then you can drink some coffee
-     console.log("It's java time!")
+     console.log("It's java time!") //coed tested as workin
 }
