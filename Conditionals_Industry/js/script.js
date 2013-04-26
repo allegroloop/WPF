@@ -23,5 +23,5 @@ if(arrivalTime > 4 && arrivalTime < 30 && excuse == false){
     console.log("Student can receive credit for class, but must be assigned make-up work.");//code tested and working
 }else{
     //everything else, print to console student is on time and receives credit for class.
-    console.log("Student is on time and receives credit for class.");
+    console.log("Student is on time and receives credit for class.");//code tested and working
 }
