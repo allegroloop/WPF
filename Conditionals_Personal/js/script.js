@@ -11,11 +11,9 @@ var weather = prompt("What is the temperature?"); //prompt question to define wh
 
 console.log(dayOff + " " + weather); //var prompts checked as working
 
-if(dayOff >= 1 && dayOff <=5 && weather > 54 && weather < 81){
-    //if prompts are answered as yes and sunny - take a hike buddy!
-    console.log("Take a hike buddy!");
-}else{
-    //if answers anything else - print to console "Not today, work on Java Script instead."
-    console.log("Not today, work on Java Script instead.");
+     //rewrite working code as Ternary
 
-}
+(dayOff >= 1 && dayOff <=5 && weather > 54 && weather < 81) ? console.log("Take a hike buddy!") : console.log("Not today, work on Java Script instead.");
+    //if prompts are answered as yes and sunny - take a hike buddy!
+    //if answers anything else - print to console "Not today, work on Java Script instead."
+
