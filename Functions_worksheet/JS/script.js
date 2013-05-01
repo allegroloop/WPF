@@ -7,12 +7,12 @@ var weight = prompt("What is the weight of the animal?");//prompt for the variab
 
 function deathStings(weight){
     //8.666666667 multiplied by the weight of the animal
-    var deathStings = weight * 8.666666667;
+    var death = weight * 8.666666667;
     console.log("It takes " + deathStings + " bee stings to kill a " + weight + " lb creature"); //print to console the results of the function
 
 }
 
-deathStrings(weight)// plugged in the var "weight" into the argument and invoked it to return solution and print to console the number of bee stings
+deathStings(weight);// plugged in the var "weight" into the argument and invoked it to return solution and print to console the number of bee stings
 
 
 
