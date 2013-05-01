@@ -12,6 +12,7 @@ function deathStings(weight){
 
 }
 
+deathStrings(weight)// plugged in the var "weight" into the console and invoked it to return solution
 
 
 
