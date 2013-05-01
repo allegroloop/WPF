@@ -12,7 +12,7 @@ function deathStings(weight){
 
 }
 
-deathStrings(weight)// plugged in the var "weight" into the console and invoked it to return solution
+deathStrings(weight)// plugged in the var "weight" into the argument and invoked it to return solution and print to console the number of bee stings
 
 
 
