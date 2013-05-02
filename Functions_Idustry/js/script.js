@@ -8,13 +8,15 @@
 
 var students = prompt("How many students showed up to class today?");
 
-function percent (students){
+function percent(students){
     var classSize = 16
     var percent = students/ classSize
 }
 percent(students)
 
 if(percent >= 75){
-    console.log (percent +"% of your class showed up today. Your class is a success!);
+    console.log (percent +"% of your class showed up today. Your class is a success!");
+}else{
+    console.log(percent +"% of your class showed up today. Your class is a bust!");
 }
 
