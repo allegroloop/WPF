@@ -6,7 +6,7 @@
 //If 74-35% attending, then print "We need to work on getting our numbers up.";
 //If below 35%, then print "Give up, this class is a bust.";
 
-var students = prompt("How many students showed up to class today?");//prompt to define number of students present in class
+var students = prompt("How many students showed up to class today?",);//prompt to define number of students present in class
 var percent = calcPercent(students);//return to store calcPercent of function
 
 function calcPercent(students){ //function to send "students" prompt to classPercent equation
