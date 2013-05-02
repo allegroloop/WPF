@@ -12,4 +12,9 @@ function percent = (students){
     var classSize = 16
     var percent = students/ classSize
 }
+percent(students)
+
+if(percent >= 75){
+    console.log (percent +"% of your class showed up today. Your class is a success!);
+}
 
