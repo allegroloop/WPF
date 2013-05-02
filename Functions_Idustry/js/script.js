@@ -14,11 +14,11 @@ function calcPercent(students){
     var classPercent = students/ classSize;
     return classPercent;
 }
-calcPercent(students)
+calcPercent(students);
 
 if(percent >= 75){
     console.log (percent + "% of your class showed up today. Your class is a success!");
-}else if(percent <=74 && percent > 34)
+}else if(percent <=74 && percent > 34){
     console.log(percent + "% of your class showed up today. Need to work on getting people to show up!");
 }else{
     console.log(percent + "% of your class showed up today. This class is a bust. Just give up!");
