@@ -8,7 +8,7 @@
 
 var students = prompt("How many students showed up to class today?");
 
-function percent = (students){
+function percent (students){
     var classSize = 16
     var percent = students/ classSize
 }
