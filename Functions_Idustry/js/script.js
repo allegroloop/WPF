@@ -11,7 +11,7 @@ var percent = calcPercent(students);//return to store calcPercent of function
 
 function calcPercent(students){ //function to send "students" prompt to classPercent equation
     var classSize = 16;//standard class size
-    var classPercent = students/ classSize * 100;//percentage equation = number of students divided
+    var classPercent = students/ classSize * 100;//percentage equation = number of students times 100 to change from decimal to a whole number
     return classPercent;//return command to send function result to be stored in var percent
 }
 calcPercent(students);// i believe this send the prompt "students" to the function calcPercent's perameter
