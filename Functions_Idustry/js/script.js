@@ -11,7 +11,7 @@ var percent = calcPercent(students);//return to store calcPercent of function
 
 function calcPercent(students){
     var classSize = 16;
-    var classPercent = students/ classSize;
+    var classPercent = students/ classSize * 100;
     return classPercent;
 }
 calcPercent(students);
