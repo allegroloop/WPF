@@ -7,19 +7,18 @@
 //If below 35%, then print "Give up, this class is a bust.";
 
 var students = prompt("How many students showed up to class today?");//prompt to define number of students present in class
-var percent = calcPercent(students)//return to store percent of function
+var percent = calcPercent(students);//return to store percent of function
 
 function calcPercent(students){
     var classSize = 16;
     var classPercent = students/ classSize;
     return classPercent;
 }
+calcPercent(students)
 
-calcpercent(students)
-
-if(classPercent >= 75){
+if(percent >= 75){
     console.log ( percent +"% of your class showed up today. Your class is a success!");
-}else{
+}else if(percent <=74 && percent > 34)
     console.log(percent +"% of your class showed up today. Your class is a bust!");
 }
 
