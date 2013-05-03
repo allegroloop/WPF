@@ -17,4 +17,17 @@ function calcVolume(l, w, h){  //function for volume is length time width time h
     return volume;  //return command volume to above sinkVolume var
 }
 
-console.log(sinkVolume); //sink volume function tested as working.
+//console.log(sinkVolume); //sink volume function tested as working.
+
+var dirtyDishes = prompt("How many dishes are dirty in your sink?"); //prompt the dirty dishes
+
+var dishSpace = sinkVolume - (dirtyDishes * 40)//assuming an arbitrary average of 40 square inches per dish, I calculated the total volume difference of the dirty dishes in the sink.
+
+//console.log(dishSpace)//printed and tested code. Tested as working.
+
+answer = (dishSpace > 200) ? "You have " + dishSpace + " cubic inches of space left in your sink. You can wait a little longer." : "You have " + dishSpace + " cubic inches of space left in your sink. Quit being lazy and start scrubbing.";// if/else ternary statement to print to console
+
+console.log(answer); //print final comment and tested code as working.
+
+
+
