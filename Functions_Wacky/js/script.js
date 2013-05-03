@@ -21,6 +21,6 @@ var starChance = function(gazeTime){//my attempt at an anonymous function
 
 var shootingStars = starChance(gazeTime);//defined shooting stars and invoked the function
 
-console.log("If you are outside at night and look at the sky for " + gazeTime + " hours, then you will probably see " + shootingStars + " shooting stars.");
+console.log("If you are outside at night and look at the sky for " + gazeTime + " hour(s), then you will probably see " + shootingStars + " shooting stars.");
 
 //code tested as working.
