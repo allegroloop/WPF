@@ -21,7 +21,7 @@ function calcVolume(l, w, h){  //function for volume is length time width time h
 
 var dirtyDishes = prompt("How many dishes are dirty in your sink?"); //prompt the dirty dishes
 
-var dishSpace = sinkVolume - (dirtyDishes * 40)//assuming an arbitrary average of 40 square inches per dish, I calculated the total volume difference of the dirty dishes in the sink.
+var dishSpace = sinkVolume - (dirtyDishes * 40);//assuming an arbitrary average of 40 square inches per dish, I calculated the total volume difference of the dirty dishes in the sink.
 
 //console.log(dishSpace)//printed and tested code. Tested as working.
 
